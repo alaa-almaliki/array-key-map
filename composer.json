@@ -1,0 +1,25 @@
+{
+  "name": "alaa/array-key-map",
+  "type": "php-library",
+  "homepage": "https://gitlab.com/alaa-almaliki/array-key-map",
+  "license": "MIT",
+  "keywords": ["php arrays array-key-map"],
+  "authors": [
+    {
+      "name": "Alaa Al-Maliki",
+      "email": "alaa.almaliki@gmail.com"
+    }
+  ],
+  "version": "1.0.0",
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ArrayKey\\Map\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.5"
+  }
+}
